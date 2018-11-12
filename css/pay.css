@@ -1,0 +1,171 @@
+/*
+* @Author: leizhenfei
+* @Date:   2018-11-10 18:41:47
+* @Last Modified by:   leizhenfei
+* @Last Modified time: 2018-11-12 21:28:48
+*/
+header{
+	width: 100%;
+	height: 1rem;
+	background: #18b9f8;
+	display: flex;
+	flex-direction: row;
+}
+
+header .top i{
+	font-size: 0.26rem;
+	color: #fff;
+	padding-left: 0.24rem;
+	display: block;
+	margin-top: 0.3rem;
+}
+header .son{
+    width: 75%;
+    height: 0.8rem;
+   /*  background: green; */
+    margin-left: 0.5rem;
+    text-align: center;
+    margin-top: 0.1rem;
+
+}
+header .son h3{
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .son p{
+	font-size: 0.3rem;
+	color: #fff;
+}
+.zhong{
+	width: 100%;
+	height: 4.5rem;
+	/* background: yellow; */
+	margin-top: 0.24rem;
+	padding: 0 0.24rem;
+
+}
+.zhong .top{
+	width: 100%;
+	height: 2.4rem;
+	background: #fff;
+	box-shadow: 0 0.15rem 0.3rem  0 rgba(24, 185, 248, 0.3);
+	border-radius: 0.3rem;	
+	padding-top: 0.24rem;
+	display: flex;
+	flex-direction: row;
+}
+.zhong .top .left{
+	width: 30%;
+	height: 1.9rem;
+	/* background: red; */
+	margin-left: 0.24rem;
+}
+.zhong .top .left img{
+	width: 100%;
+	height: 100%;
+}
+.zhong .top .right{
+	width: 60%;
+	height: 1.9rem;
+	/* background: blue; */
+	margin-left: 0.24rem;
+}
+.zhong .top .right ul li h3{
+	font-size: 0.3rem;
+	color:#625e5e;
+	padding-top: 0.14rem;
+}
+.zhong .top .right ul li h4{
+	font-size: 0.3rem;
+	color:#625e5e;
+	margin-top: 0.24rem;
+}
+.zhong .top .right ul li:nth-child(3){
+	display: flex;
+	flex-direction: row;
+}
+.zhong .top .right ul li .fa{
+	width: 35%;
+	height: 0.46rem;
+	background: #18b9f8;
+	border-radius:  0.13rem;
+	margin-top: 0.24rem;
+}
+.zhong .top .right ul li .fa h3{
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.2rem;
+}
+.zhong .top .right ul li .zai{
+	width: 35%;
+	height: 0.46rem;
+	background: #18b9f8;
+	border-radius:  0.13rem;
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+
+}
+.zhong .top .right ul li .zai h3{
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.2rem;
+}
+.zhong .con{
+	width: 100%;
+	height: 1.1rem;
+	/* background: blue; */
+	margin-top: 0.8rem;
+	text-align: center;
+}
+.zhong .con img{
+	width: 50%;
+	height: 0.85rem;
+
+}
+.xia{
+	width: 100%;
+	height: 8.2rem;
+/* 	background: #b0b0b0; */
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.xia .list{
+   width: 45%;
+   height: 3.85rem;
+   background: #fff;
+   border-radius: 0.4rem;
+   box-shadow: 0.1rem 0.2rem 0 rgba(24, 185, 248, 0.2);
+}
+
+.xia .list .shang{
+	width: 100%;
+	height: 2.15rem;
+	/* background: yellow; */
+	border-radius: 0.4rem;
+}
+.xia .list .shang img{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.4rem;
+}
+.xia .list h3{
+	font-size: 0.28rem;
+	color: #20404c;
+	padding-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.xia .list h4{
+	font-size: 0.24rem;
+	color: #acaeaf;
+	padding-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.xia .list h5{
+	font-size: 0.3rem;
+	color: #fe0505;
+	padding-left: 2rem;
+
+}

@@ -2,7 +2,7 @@
 * @Author: leizhenfei
 * @Date:   2018-11-08 10:10:43
 * @Last Modified by:   leizhenfei
-* @Last Modified time: 2018-11-12 16:23:00
+* @Last Modified time: 2018-11-12 21:37:10
 */
 header{
 	width: 100%;
@@ -30,7 +30,7 @@ header{
 	
 }
 .top i:nth-child(2){
-	padding-left: 5.4rem;
+	padding-left: 75%;
 }
 .top i:nth-child(3){
 	padding-left: 0.6rem;
@@ -46,7 +46,7 @@ header{
 	/* background: blue; */
 	position: absolute;
 	top: 0.6rem;
-	left: 2.66rem;
+	left: 35%;
 	border-radius: 0.9rem;
 	overflow: hidden;
 }
@@ -60,7 +60,7 @@ header{
 	/* background: red; */
 	position: absolute;
 	top: 2.1rem;
-	left: 2.5rem;
+	left: 35%;
 }
 .two h3{
 	font-size: 0.3rem;
@@ -72,7 +72,7 @@ header{
 	/* background: yellow; */	
 	position: absolute;
 	top: 2.6rem;
-	left: 1.5rem;
+	left: 20%;
 }
 .there p{
 	font-size: 0.3rem;
@@ -88,7 +88,7 @@ header{
 	/* background: orange; */
 	position: absolute;
 	top: 3.05rem;
-	left: 2.8rem;
+	left: 35%;
 }
 .four{
 	font-size: 0.25rem;
@@ -100,7 +100,7 @@ header{
 /* 	background: pink; */
 	position: absolute;
 	top: 3.3rem;
-	left: 2.2rem;
+	left: 30%;
 	line-height: 0.1rem;
 	text-align: center;
 }
@@ -262,7 +262,7 @@ main .right .rmb .ss1{
 	width: 15%;
 	height: 0.4rem;
 	background: #18b9f8;
-	border-radius: 50%;	
+	border-radius: 48%;	
 	text-align: center;
 	line-height: 0.4rem;
 }

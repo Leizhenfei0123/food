@@ -2,7 +2,7 @@
 * @Author: leizhenfei
 * @Date:   2018-11-09 11:44:39
 * @Last Modified by:   leizhenfei
-* @Last Modified time: 2018-11-12 11:28:06
+* @Last Modified time: 2018-11-12 21:29:10
 */
 header{
 	width: 100%;
@@ -21,7 +21,7 @@ header .top i{
 	margin-top: 0.2rem;
 }
 header .son{
-    width: 5.5rem;
+    width:80%;
     height: 0.8rem;
    /*  background: green; */
     margin-left: 0.4rem;
@@ -34,7 +34,7 @@ header .son h3{
 }
 header .son p{
 	font-size: 0.3rem;
-	color: #666;
+	color: #fff;
 }
 .con{
 	width: 100%;
