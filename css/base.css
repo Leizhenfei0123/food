@@ -1,0 +1,19 @@
+/*
+* @Author: leizhenfei
+* @Date:   2018-11-07 11:19:49
+* @Last Modified by:   leizhenfei
+* @Last Modified time: 2018-11-07 11:22:20
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+i{
+	font-style: normal;
+}

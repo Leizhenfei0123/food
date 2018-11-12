@@ -1,0 +1,336 @@
+/*
+* @Author: leizhenfei
+* @Date:   2018-11-08 10:10:43
+* @Last Modified by:   leizhenfei
+* @Last Modified time: 2018-11-12 16:23:00
+*/
+header{
+	width: 100%;
+	height: 4rem;
+	/* background: red; */
+	position: relative;
+	box-shadow: 0 0.15rem 0.3rem 0 #c7eefd;
+}
+.top{
+	width: 100%;
+	height: 1rem;
+	background: #18b9f8;
+	padding-left: 0.24rem;
+	line-height: 1rem;
+	display: flex;
+	align-items: center;
+
+}
+.top a{
+	margin-top: -0.2rem;
+}
+.top i{
+	font-size: 0.3rem;
+	color: #fff;
+	
+}
+.top i:nth-child(2){
+	padding-left: 5.4rem;
+}
+.top i:nth-child(3){
+	padding-left: 0.6rem;
+}
+.referral{
+	width: 100%;
+	height: 3rem;
+/* 	background: #666; */
+}
+.frist{
+	width: 30%;
+	height: 1.4rem;
+	/* background: blue; */
+	position: absolute;
+	top: 0.6rem;
+	left: 2.66rem;
+	border-radius: 0.9rem;
+	overflow: hidden;
+}
+.frist img{
+	width: 100%;
+	height: 100%;
+}
+.two{
+	width: 40%;
+	height: 0.35rem;
+	/* background: red; */
+	position: absolute;
+	top: 2.1rem;
+	left: 2.5rem;
+}
+.two h3{
+	font-size: 0.3rem;
+	color: #333;
+}
+.there{
+	width: 85%;
+	height: 0.4rem;
+	/* background: yellow; */	
+	position: absolute;
+	top: 2.6rem;
+	left: 1.5rem;
+}
+.there p{
+	font-size: 0.3rem;
+	color: #ffdd00;
+}
+.there span{
+	font-size: 0.25rem;
+	color: #9b9595;
+}
+.four{
+	width: 30%;
+	height: 0.3rem;
+	/* background: orange; */
+	position: absolute;
+	top: 3.05rem;
+	left: 2.8rem;
+}
+.four{
+	font-size: 0.25rem;
+	color: #9b9595;
+}
+.five{
+	width: 40%;
+	height: 0.5rem;
+/* 	background: pink; */
+	position: absolute;
+	top: 3.3rem;
+	left: 2.2rem;
+	line-height: 0.1rem;
+	text-align: center;
+}
+.five span{
+	font-size: 0.25rem;
+	color: #fa0707;
+}
+main{
+	width: 100%;
+	height: 100%;
+	/* background: red; */
+}
+ .toop{
+	width: 100%;
+	height: 1rem;
+    /* background: green; */
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+main .son{
+	width: 100%;
+	height: 100%;
+	font-size: 0.3rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+main ul li.act{
+	border-bottom: 0.01rem solid #0aa2fa;
+	padding-bottom: 0.05rem;
+}
+main .con{
+	width: 100%;
+	/* background: pink; */
+	display: flex;
+	flex-direction:row;
+	margin-bottom: 1.5rem;
+}
+main .left{
+	width: 28%;
+	height: 100%;
+	/* background: blue; */
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: flex;
+	flex-direction:column; 
+	justify-content: space-around;
+	align-items: center;
+} 
+main .left ul li{
+	width: 100%;
+	height: 0.8rem;
+	background: #f3f3f3;
+	font-size: 0.28rem;
+	margin-top: 0.2rem;
+	text-align: center;
+	line-height: 0.8rem;
+	border-radius:0.2rem;
+}
+main .left ul li.act{
+	background: #18b9f8;
+	color: #fff;
+}
+main .right{
+	width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;	
+    overflow-x: hidden;
+	overflow-y: auto;	
+}
+main .right ul li{
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	flex-direction: row;
+	padding-left: 0.15rem;
+	background: #ffffff;
+	
+	box-shadow: 0 0.15rem 0.3rem 0 #cbeffd;
+	margin-top: 0.1rem;
+	border-radius: 0.05rem;
+}
+main .right .pic{
+	width: 40%;
+	height: 1.6rem;
+	/* background: red; */
+	margin-top: 0.2rem;
+}
+main .right .pic img{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.1rem;
+}
+main .right .kuan{
+	width: 53%;
+	height: 1.6rem;
+	/* background: orange; */
+	margin-top: 0.2rem;
+	margin-left: 0.1rem;
+
+}
+main .right .taocai{
+	width: 100%;
+	height: 0.4rem;
+	/* background: #666; */
+	flex-direction:row;
+}
+main .right .taocai h3{
+	font-size: 0.3rem;
+	color: #050505;
+}
+main .right .yuexiao{
+	width: 100%;
+	height: 0.3rem;
+	/* background: #999; */
+	display: flex;
+	margin-top: 0.1rem;
+}
+main .right .yuexiao p{
+	font-size: 0.25rem;
+	color: #050505;
+	line-height: 0.3rem;
+	margin-top: 0.1rem;
+}
+main .right .yuexiao .p1{
+	padding-left: 0.2rem;
+}
+main .right .rmb{
+	/* width: 0.63rem; */
+	height: 0.3rem;
+	/* background: blue; */
+	margin-top: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+main .right .rmb h4{
+	font-size: 0.24rem;
+	color: #f90909;
+	line-height: 0.3rem;
+}
+main .right .rmb .ss{
+	width: 28%;
+	height: 0.3rem;
+	background: #f8f3f3;
+	display: flex;
+	flex-direction: row;
+}
+main .right .rmb .ss p{
+	font-size: 0.2rem;
+	color: #666;
+	text-align: center;
+	padding-left: 0.1rem;
+}
+main .right .rmb .ss1{
+	width: 15%;
+	height: 0.4rem;
+	background: #18b9f8;
+	border-radius: 50%;	
+	text-align: center;
+	line-height: 0.4rem;
+}
+main .right .rmb .ss1 p{
+   font-size: 0.2rem;
+   color: #fff;
+}
+.di{
+	width: 100%;
+	height: 1.54rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	border-radius: 0.1rem;
+	box-shadow: 0 0.15rem 0.3rem 0 #9fe1fa;
+	display: flex;
+	align-items: center;
+	
+}
+
+.di .zhong{
+	width: 35%;
+	height: 100%;
+	background: #fff;
+	text-align: center;
+	border-radius: 0.5rem;
+	line-height: 100%;
+}
+.di .zhong .yuan{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: #f3f3f3;
+	border-radius: 0.45rem;
+	margin-left: 0.24rem;
+	margin-top: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
+
+.di .zhong .yuan i{
+	font-size: 0.45rem;
+	color: #551f1f;
+	
+}
+.di .le{
+    width: 35%;
+    height: 100%;
+   /*  background: #333; */
+    padding-right: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+.di .le h6{
+	font-size: 0.2rem;
+	color: #551f1f;
+	padding-top: 0.4rem;
+}
+
+.di .ri{
+	width: 40%;
+	height: 100%;
+	background: #f3f3f3;
+	text-align: center;
+    line-height: 100%;
+    border-radius: 0.3rem;
+}
+.di .ri h2{
+    font-size: 0.3rem;
+    color: #551f1f;
+    padding-top: 0.3rem;
+}

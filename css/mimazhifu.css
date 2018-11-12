@@ -1,0 +1,136 @@
+/*
+* @Author: leizhenfei
+* @Date:   2018-11-10 17:05:47
+* @Last Modified by:   leizhenfei
+* @Last Modified time: 2018-11-12 11:25:02
+*/
+header{
+	width: 100%;
+	height: 1rem;
+	background: #18b9f8;
+	display: flex;
+	flex-direction: row;
+	padding: 0.20rem;
+}
+
+header .top i{
+	font-size: 0.26rem;
+	color: #fff;
+	padding-left: 0.24rem;
+	display: block;
+	margin-top: 0.2rem;
+}
+header .son{
+    width: 5.5rem;
+    height: 0.8rem;
+   /*  background: green; */
+    margin-left: 0.5rem;
+    text-align: center;
+
+}
+header .son h3{
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .son p{
+	font-size: 0.3rem;
+	color: #666;
+}
+.zhong{
+	width: 100%;
+	height: 6.8rem;
+	/* background: red; */
+	margin-top: 0.4rem;
+	padding: 0 0.24rem;
+	position: fixed;
+}
+.zhong ul li{
+	width: 100%;
+	height: 1rem;
+	background: #18b9f8;
+	border-radius: 0.3rem;
+	
+}
+.zhong  ul li .yinlian i{
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	color: #fff;
+	font-size: 0.5rem;
+	top: 0.3rem;
+	left: 0.3rem;
+	padding-left: 0.24rem;
+}
+.zhong  ul li .yinlian .icon-zhifupingtai-yinlian{
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	color: #004787;
+	font-size: 0.5rem;
+	top: 0.25rem;
+	left: 6rem;
+}
+.zhong  ul li .yinlian h3{
+	position: absolute;
+	color: #fff;
+	font-size: 0.3rem;
+	top: 0.15rem;
+	left: 1.3rem;
+
+
+}
+.zhong  ul li .yinlian h4{
+	position: absolute;
+	color: #fff;
+	font-size: 0.3rem;
+	top: 0.55rem;
+	left: 1.3rem;
+}
+.zhong ul li:nth-child(2){
+	background: #fff;
+
+}
+.zhong ul li .rmb{
+	margin-top: 0.4rem;
+	text-align: center;
+	background: #fff;
+	border-bottom: 0.05rem dotted #18b9f8;
+	padding-bottom: 0.1rem;
+}
+.zhong ul li .rmb h5{
+	font-size: 0.3rem;
+	color: #18b9f8;
+}
+.zhong ul li .rmb h6{
+	font-size: 0.3rem;
+	color: #18b9f8;
+}
+.zhong ul li:nth-child(3){
+	margin-top: 1.15rem;
+	background: #fff;
+	padding: 0 0.24rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	line-height: 1.1rem;
+}
+.zhong ul li:nth-child(3) .list{
+   width: 1.1rem;
+   height: 1.1rem;
+   border: 0.01rem solid #18b9f8;
+   font-size: 0.3rem;
+   color: #18b9f8;
+
+}
+.di{
+	width: 100%;
+	height: 4.31rem;
+	/* background: green; */
+	position: fixed;
+	bottom: 0;
+}
+.di img{
+	width: 100%;
+	height: 100%;
+}

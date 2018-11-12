@@ -1,0 +1,155 @@
+/*
+* @Author: leizhenfei
+* @Date:   2018-11-09 11:44:39
+* @Last Modified by:   leizhenfei
+* @Last Modified time: 2018-11-12 11:28:06
+*/
+header{
+	width: 100%;
+	height: 1rem;
+	background: #18b9f8;
+	display: flex;
+	flex-direction: row;
+	padding: 0.15rem;
+}
+
+header .top i{
+	font-size: 0.26rem;
+	color: #fff;
+	padding-left: 0.24rem;
+	display: block;
+	margin-top: 0.2rem;
+}
+header .son{
+    width: 5.5rem;
+    height: 0.8rem;
+   /*  background: green; */
+    margin-left: 0.4rem;
+    text-align: center;
+
+}
+header .son h3{
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .son p{
+	font-size: 0.3rem;
+	color: #666;
+}
+.con{
+	width: 100%;
+	height: 10.8rem;
+	/* background: #666; */
+	padding: 0.24rem 0.24rem;
+	display: flex;
+	flex-direction: column;
+     
+
+}
+.con ul li{
+	width: 100%;
+	height: 1rem;
+	background: #fcfdfd;
+	border-radius: 0.3rem;
+	position: relative;
+	box-shadow: 0 0.15rem 0.3rem 0 rgba(24, 185, 248, 0.2);
+	margin-top: 0.04rem;
+	
+}
+.con ul li .frist{
+	display: flex;
+	justify-content:space-between;
+	padding: 0.24rem;
+}
+.con ul li .frist h5{
+    font-size: 0.34rem;
+    color: #706d6d;
+    font-weight: normal;
+}
+.con ul li .frist h4{
+    font-size: 0.34rem;
+    color: #fa2f2f;
+    font-size: 0.34rem;
+}
+.con ul li:nth-child(2){
+	margin-top: 0.24rem;	
+	
+}
+.con ul li:nth-child(3) .ll i{
+	color: #18b9f8;
+}
+.con ul li:nth-child(4) .ll i{
+	color: #d81e06;
+}
+.con ul li:nth-child(5) .ll i{
+	color: #034480;
+}
+.con ul li:nth-child(6){
+	margin-top: 0.4rem;
+}
+/* .con ul li .ll{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: red;
+	margin-top: 0.3rem;
+} */
+.con ul li .ll i{
+	font-size: 0.5rem;
+	color: #1afa29;
+	position: absolute;
+	top: 0.3rem;
+    left: 0.05rem;
+}
+.con ul li .ll h5{
+	 font-size: 0.34rem;
+    color: #706d6d;
+    font-weight: normal;
+    padding-left: 0.8rem;
+}
+.con ul li .ll h4{
+	font-size: 0.3rem;
+    color: #bdb8b8;
+    font-weight: normal;
+    padding-left: 0.8rem;
+}
+.con ul li .ll .yuan{
+   width: 0.4rem;
+   height: 0.4rem;
+   background: #fff;
+   position: absolute;
+   top: 0.2rem;
+   right: 0.2rem;
+   border-radius: 0.2rem;
+   border: 0.01rem solid #bdb8b8;
+}
+.con ul li .ll .yuan1{
+	width: 0.42rem;
+    height: 0.42rem;
+/*     background: #18b9f8; */
+    position: absolute;
+    top: 0.3rem;
+    right: 0.2rem;
+    border-radius: 0.2rem;
+    position: absolute;
+}
+.con ul li .ll .yuan1 i{
+    color:#18b9f8;
+    font-size: 0.4rem;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+.dibu{
+	width: 100%;
+	height: 1rem;
+	background: #18b9f8;
+	border-radius: 0.3rem;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	line-height: 1rem;
+}
+.dibu h3{
+	font-size: 0.34rem;
+	color: #fff;
+}
